@@ -19,7 +19,7 @@
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
           p:prefix="/WEB-INF/views/" p:suffix=".jsp"/>
 
-    <mvc:resources mapping="**.html"
-                   location="/,classpath:/WEB-INF/**.html"/>
+    <!--<mvc:resources mapping="**.html"
+                   location="/WEB-INF/**.html"/>-->
 
 </beans>
